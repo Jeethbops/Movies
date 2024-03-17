@@ -15,7 +15,7 @@ const BlogSection = ()=>{
                         05-jul-2019
                         </span></p>
                         <div id='despbox'></div>
-                        <p id='description'>If you are a fresh graduate - or new to IT - looking for the next job, you need to read this.</p>
+                        <p id='description'>If you are a fresher - or new to IT - looking for the next job, you need to read this.</p>
                         </div>
                     
 
