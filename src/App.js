@@ -9,7 +9,7 @@ export class App extends Component {
     render(){
         return(
             <>
-            <header>
+            <header id='header'>
                 
             </header>
             <BlogSection/>
