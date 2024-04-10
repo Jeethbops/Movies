@@ -15,8 +15,6 @@ export class App extends Component {
             <>
                 <HeaderSection />
                 <OptionsSection/>
-                {/* <p>diana tution classes</p> */}
-
                 <BlogSection />
                
 
