@@ -5,236 +5,32 @@ body {
   font-family: Anta;
 }
 
-/* HEADERSECTION BEGINING */
-
-#header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  padding: 10px 78px;
-}
-
-#LOGOBOX {
-  display: block;
-  cursor: pointer;
-  margin-bottom: 0px;
-  align-items: center;
-
-}
-
-.logo {
-  width: 140px;
-  font-size: 32px;
-  color: #0084ff;
-  display: block;
-  margin: 0%;
-
-}
-
-.slogo {
-  margin: 0%
-}
-
-.drop {
-  display: inline-block;
-  color: #000;
-  padding-top: 0;
-  margin-left: 80px;
-  margin-top: 0px;
-  border: none;
-}
-
-.headerdescription {
-  list-style: none;
-  min-width: 23em;
-  opacity: .6;
-  font-size: 15px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1;
-  letter-spacing: .4px;
-  text-align: left;
-  color: rgba(0, 0, 0, .6);
-  margin-left: 120px;
-}
-
-.BGotoweb-button {
-  width: auto;
-  font-size: 0.75em;
-  padding: 0.5em 2em;
-  border-radius: 30px;
-  height: 45px;
-  background-color: #0084ff;
-  color: #fff;
-  border: #0096ff;
-  font-family: Anta;
-  cursor: pointer;
-
-}
-#gotobtn{
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.404);
-  margin: 0px 1em 0px 250px;
-  border-radius: 30px;  
-}
-/* HEADERSECTION END */
-
-
-/* OPTIONSSECTION BEGIN */
-
-
-.trepost{
-  margin-left: 200px; margin-bottom: 15px;
-  font-weight: 600;
-  font-size: 32px;
-}
-#filter{
-  align-items: center;
-  display: flex;
-  margin-left: 200px;
-}
-#FilterImg{
-  width: 26px;
-
-}
-.filtercat{
-
-  font-size: 16px;
-    font-weight: 600;
-    margin: 0%;
-    padding-left: 5px;
-    padding-top: 0%;
-
-}
-.containers{
-  margin-left: 195px; margin-top: 15px;margin-right: 100px;
-}
-#activecat{
-  display: inline-block;
-  border: 1px solid #0084ff;
-    border-radius: 15px;
-    margin: 5px;
-    padding: 6px 14px;
-    width: auto;
-    color:white;
-    background-color: #0084ff;
-    cursor: pointer;
-}
-.cat{
-  display: inline-block;
-  border: 1px solid #0084ff;
-  border-radius: 15px;
-  margin: 5px;
-  padding: 6px 14px;
-  width: auto;
-  color: #0084ff;
+#searchbar{
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(92, 172, 218, 0.466);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  border: 0px;
   cursor: pointer;
 }
-#footer{
-  background-color: #172146;
-  padding: 35px 78px;
-  margin-top: 50px;
+#SEARCHBAR{
+  margin: 30px auto;
+  justify-content: center;
+  text-align: center;
+}
+#movie-wrapper{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.movie-card{
+  width: 15%;
+  margin: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+  
+  
+}
+.thumbnail{
   width: 100%;
-}
-
-/* OPTIONSSECTION END */
-
-
-/* CARDS SECTION BEGIN*/
-
-#blogsection {
-  width: 70%;
-  margin: 20px auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.cards {
-  width: calc(33.33% - 24px);
-  margin: 10px;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .1);
-  border-radius: 5px;
-  border: 1px solid rgba(0, 168, 255, .3);
-  background-color: white;
-cursor: pointer;
-  font-size: 16px;
-}
-
-#imgsection {
-  width: 100%;
-  height: 11.5em;
-}
-
-.blogimg {
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-#titlesection {
-  padding: 0.7em 1.5em;
-
-}
-
-.title {
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  text-align: left;
-  margin: 0;
-  font-weight: 600;
-  font-size: 1.25em;
-  font-weight: 600;
-  line-height: 1.14;
-  color: #000;
-}
-
-.author {
-  font-size: .9em;
-  font-weight: 500;
-  line-height: 2;
-  color: #0096ff;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  text-align: left;
-  margin: 0;
-
-}
-
-.date {
-  font-size: 14px;
-  font-weight: 300;
-  font-style: normal;
-  color: #000;
-  margin-top: 0.3em;
-}
-
-#despbox {
-  opacity: .5;
-  font-size: 14px;
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.43;
-  letter-spacing: .35px;
-  text-align: left;
-  color: #000;
-  margin: 0.3em 0;
-  white-space: pre-wrap;
-}
-
-#description {
-  font-size: 14px;
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.43;
-  letter-spacing: .35px;
-  text-align: left;
-  color: #000;
-  margin: 0.3em 0;
-  white-space: pre-wrap;
 }
