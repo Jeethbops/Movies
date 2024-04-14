@@ -22,11 +22,11 @@ function App(){
             <input className='searchbar' placeholder='Enter Movie name'></input>
             </div>
 
-            <div id='movie-wrapper'>
+            <div className='movie-wrapper'>
                 {
             poppularMovies.map((movie,i) =>{
                 return(
-                    <div className='movie-card'>
+                    <div className='movie-card' >
                     <div className='movie-thumb' onMouseOver={()=>{
                         var movieelement = document.getElementById(`movieTitle${i}`)
                         movieelement.style.display = "block"
