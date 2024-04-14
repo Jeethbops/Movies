@@ -17,8 +17,11 @@ function App(){
 
     return(
         <>
+        <div>
         <div id='SEARCHBAR'>
             <input id='searchbar' placeholder='Enter Movie name'></input>
+            </div>
+
             <div id='movie-wrapper'>
                 {
             poppularMovies.map((movie,i) =>{
@@ -27,6 +30,7 @@ function App(){
                         <img className='thumbnail'
                         src={`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}` }
                         />
+                        <p> <b>{movie.title}</b></p>
 
                     </div>
                 )
@@ -34,6 +38,7 @@ function App(){
             })
             }
             </div>
+        
         </div>
         </>
     )
