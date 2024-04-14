@@ -27,10 +27,21 @@ function App(){
             poppularMovies.map((movie,i) =>{
                 return(
                     <div className='movie-card'>
+                    <div className='movie-thumb' onMouseOver={()=>{
+                        var movieelement = document.getElementById(`movieTitle${i}`)
+                        movieelement.style.display = "block"
+                    }} 
+                    onMouseLeave={()=>{
+                        var movieelement = document.getElementById(`movieTitle${i}`)
+                        movieelement.style.display = "none"
+                    }}
+                    >
                         <img className='thumbnail'
                         src={`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}` }
                         />
-                        <p> <b>{movie.title}</b></p>
+                                            </div>
+
+                        <p id={`movieTitle${i}`} style={{display:'none'}}> <b>{movie.title}</b></p>
 
                     </div>
                 )
