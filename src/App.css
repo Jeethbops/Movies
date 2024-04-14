@@ -6,11 +6,10 @@ body {
   
 }
 
-#searchbar{
+.searchbar{
   justify-content: center;
   text-align: center;
   background-color: rgb(0, 0, 0);
-  box-shadow: 0 2px 10px rgb(13, 50, 151);
   border: 0px;
   border-radius: 10px;
   padding: 10px 50px;
@@ -18,7 +17,7 @@ body {
 
   cursor: pointer;
 }
-#SEARCHBAR{
+.SEARCHBAR{
   margin: 30px auto;
   justify-content: center;
   text-align: center;
@@ -41,6 +40,13 @@ justify-content: center;
 }
 .movie-thumb{
   border-radius: 10px;
+
+}
+:hover.movie-thumb{
+  box-shadow: 0 2px 20px rgb(13, 50, 151);
+
+}
+:hover.searchbar{
   box-shadow: 0 2px 20px rgb(13, 50, 151);
 
 }

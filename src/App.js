@@ -18,8 +18,8 @@ function App(){
     return(
         <>
         <div>
-        <div id='SEARCHBAR'>
-            <input id='searchbar' placeholder='Enter Movie name'></input>
+        <div className='SEARCHBAR'>
+            <input className='searchbar' placeholder='Enter Movie name'></input>
             </div>
 
             <div id='movie-wrapper'>
